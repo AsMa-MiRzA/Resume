@@ -6,7 +6,7 @@ import{RxCross2}from"react-icons/rx";
 export const Header = () => {
   const [toggle,setToggle]= useState(true);
   return (
-  <section className="bg-pink-600 text-white">
+  <section className="bg-pink-600 text-white sticky">
       <div className="flex justify-between items-center">
         <h1 className="font-autograph m-7 font-bold"> Asma Mirza</h1>
         <ul className="m-7 md:flex hidden ">
